@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/shanmukhrvl/my-gallery/tree/main/dist/images/Screenshot_My-Gallery.jpg?raw=true)
+![screenshot](https://github.com/shanmukhrvl/my-gallery/blob/main/dist/images/Screenshot_My-Gallery.jpg?raw=true)
 
 - You can see the demo [here](https://rvl-mygallery.netlify.app/)
 - What was your experience?

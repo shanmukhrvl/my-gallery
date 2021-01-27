@@ -1,0 +1,32 @@
+@media (min-width: 600px) {
+  .profile {
+    &__photo {
+      width: 9.75rem;
+    }
+
+    &__name {
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+
+    &__location {
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+    }
+
+    &__stats {
+      width: 50%;
+
+      .stat {
+        &__value {
+          font-size: 1.125rem;
+          line-height: 1.3125rem;
+        }
+        &__name {
+          font-size: 0.875rem;
+          line-height: 1.0625rem;
+        }
+      }
+    }
+  }
+}

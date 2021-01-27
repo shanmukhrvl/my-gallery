@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import "config";
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profile {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__photo {
+    width: 6.81rem;
+  }
+
+  &__name {
+    margin: 1em 0 0.25em 0;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: $black;
+  }
+
+  &__location {
+    margin: 0;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    color: $dark-gray;
+  }
+
+  &__stats {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    gap: 1em;
+    margin: 0.75rem 0;
+
+    .stat {
+      flex: 1 1 0;
+      text-align: center;
+      padding: 0.35em 0;
+      background: $light-gray;
+      border-radius: 0.75rem;
+
+      &__value,
+      &__name {
+        margin: 0.35em;
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+      }
+
+      &__value {
+        color: $black;
+      }
+
+      &__name {
+        color: $medium-gray;
+      }
+    }
+  }
+}
+
+.gallery {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.75em;
+  grid-template-areas:
+    "image-1 image-2 image-2"
+    "image-3 image-3 image-4"
+    "image-6 image-5 image-4";
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &__img-1 {
+    grid-area: image-1;
+  }
+
+  &__img-2 {
+    grid-area: image-2;
+  }
+
+  &__img-3 {
+    grid-area: image-3;
+  }
+
+  &__img-4 {
+    grid-area: image-4;
+  }
+
+  &__img-5 {
+    grid-area: image-5;
+  }
+  &__img-6 {
+    grid-area: image-6;
+  }
+}
+
+.footer {
+  margin: 0 auto;
+  p {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: $dark-gray;
+  }
+}
+
+@import "responsive";

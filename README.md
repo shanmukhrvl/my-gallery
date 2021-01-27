@@ -36,12 +36,9 @@
 
 ## Overview
 
-![screenshot](https://github.com/shanmukhrvl/my-gallery/blob/main/dist/images/Screenshot_My-Gallery.jpg?raw=true)
+<img src="https://github.com/shanmukhrvl/my-gallery/blob/main/dist/images/Screenshot_My-Gallery.jpg" width="400"/>
 
 - You can see the demo [here](https://rvl-mygallery.netlify.app/)
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
